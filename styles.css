@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
+
+body{
+    background-color: #bed4df;
+}
+
+
+li a {
+    float: left;
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-size: xx-large;
+    font-family: 'Ranchers';
+}
+
+
+.links {
+    list-style-type: none;
+    margin: 0;
+    padding-left : 15px;
+    overflow: hidden;
+    background-color: #90adbb;
+}
+
+.link3:visited {
+    color: rgb(255, 251, 2);
+}
+    
+.textarea:focus{
+    color:green;
+    font-size: 20px;
+}
+
+.link1:hover {
+    background-color:  #c7edff;
+    font-weight:  bolder;
+}
+
+.link2:active {
+    background-color:  #ff0000;
+    font-style: italic;
+}
